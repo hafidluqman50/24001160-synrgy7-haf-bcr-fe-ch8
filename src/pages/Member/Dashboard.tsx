@@ -12,7 +12,7 @@ import React from 'react'
 import { ColumnDef } from "@tanstack/react-table";
 import { formatDate, formatRupiah } from "@/lib/utils";
 import { Order } from "@/interfaces/Order";
-import { useListOrdersAPI } from "@/context/OrderContext";
+import { useListOrdersAPI } from "@/loaders/OrderLoaders";
 
 
 export default function Dashboard(): ReactElement {

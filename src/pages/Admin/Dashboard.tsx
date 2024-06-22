@@ -15,7 +15,7 @@ import { httpServer } from "@/lib/server";
 import { useQuery } from "react-query";
 import { formatDate, formatRupiah } from "@/lib/utils";
 import { Order } from "@/interfaces/Order";
-import { useListOrdersAPI } from "@/context/OrderContext";
+import { useListOrdersAPI } from "@/loaders/OrderLoaders";
 
 
 export default function Dashboard(): ReactElement {
