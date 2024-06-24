@@ -1,4 +1,4 @@
-import { ReactElement, ReactNode, createContext, useContext } from "react";
+import { ReactElement, ReactNode, createContext } from "react";
 import { Order } from "@/interfaces/Order";
 import { listOrders } from "@/lib/fakeData";
 
